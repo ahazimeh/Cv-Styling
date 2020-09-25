@@ -475,12 +475,10 @@ hgroup,.hgroup{
   float: left;
   line-height: 6px;
   background-color: black;
-  /* width: 10%; */
   color: red;
   width: 47%;
 }
 #about{
-  /* margin-top: 5%; */
   float: left;
   width: 38%;
   margin-left: 10%;
@@ -489,6 +487,7 @@ hgroup,.hgroup{
   float: left;
   width: 38%;
   margin-left: 2%;
+  clear: right;
 }
 #experiences{
   width: 38%;
@@ -498,7 +497,6 @@ hgroup,.hgroup{
 }
 #education{
   float: left;
-  /* clear: both; */
 
   width: 38%;
   margin-left: 2%;
@@ -506,8 +504,92 @@ hgroup,.hgroup{
 #hobbies{
   clear: both;
   float: left;
+  width: 38%;
+  margin-left: 10%;
 }
 #contact{
   clear: both;
   float: left;
+}
+.skills-primary .skill{
+  display: relative;  
+  background-color: #CCCCCC;
+  height: 30px;
+  margin-bottom: 1%;
+}
+.skills-secondary .skill{
+  display: relative;  
+  background-color: rgb(219,219,219);
+  height: 30px;
+  margin-bottom: 1%;
+}
+.skills-primary .skill .percent{
+  position: relative;
+  background-color: red;
+  height: 80%;
+  top:10%;
+}
+.skills-secondary .skill .percent{
+  position: relative;
+  background-color: rgb(255,75,75);
+  height: 80%;
+  top:10%;
+}
+
+.skills-primary .skill:nth-child(1) .percent{
+  width: 40%;
+}
+.skills-primary .skill:nth-child(2) .percent{
+  width: 30%;
+}
+.skills-primary .skill:nth-child(3) .percent{
+  width: 50%;
+}
+.skills-secondary .skill:nth-child(1) .percent{
+  width: 40%;
+}
+.skills-secondary .skill:nth-child(2) .percent{
+  width: 30%;
+}
+.skills-secondary .skill:nth-child(3) .percent{
+  width: 50%;
+}
+
+
+
+.experience-type{
+  color: red;
+}
+.experience-institution{
+  color: rgb(255,107,107);
+}
+.experience-location,.day,.month,.year{
+  color: grey;
+}
+.experience-date-separator{
+  color: rgb(255,0,0);
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.about{
+  clear: both;
+  margin-left: 10%;
+  float: left;
+  width: 30%;
+}
+.competencies{
+  margin-left: 10%;
+  float: left;
+  /* width: 20%; */
+}
+hr{
+  clear: both;
+  width: 77.8%;
+  margin-left: 10%;
 }
