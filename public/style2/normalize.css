@@ -1,0 +1,18 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+img{
+    position: relative;
+    /* margin-bottom: 100px; */
+    top: 110pt;
+    transform: rotate(-20deg);
+    margin-left: 80%;
+}
+.inImg{
+    width: 100%;
+}
+.profile p{
+    width: 75%;
+    color: grey;
+}
