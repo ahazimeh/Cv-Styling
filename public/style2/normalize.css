@@ -5,8 +5,8 @@ body{
 img{
     position: relative;
     /* margin-bottom: 100px; */
-    top: 110pt;
-    transform: rotate(-20deg);
+    top: 120pt;
+    transform: rotate(-15deg);
     margin-left: 80%;
 }
 .inImg{
@@ -15,4 +15,105 @@ img{
 .profile p{
     width: 75%;
     color: grey;
+}
+table{
+    position: relative;
+    top: 12pt;
+    float: left;
+    /* border-left: solid red; */
+    /* margin-left: 2px; */
+}
+td{
+    background-color: rgb(0,128,128);
+    color: white;
+    line-height: 1.5em;
+}
+table tr:nth-child(2) td{
+    font-size: x-small;
+}
+td span{
+    color: white;
+    /* background-color: white; */
+}
+.comp{
+    position: relative;
+    border-right: 2px solid grey;
+    height: 13%;
+    top:15pt;
+    /* width: 99pt; */
+    float: left;
+    clear: both;
+}
+.comp h3{
+    position: relative;
+    bottom:15pt;
+}
+
+
+
+.exp{
+    position: relative;
+    border-right: 2px solid grey;
+    height: 13%;
+    top:15pt;
+    /* padding-right: 2%; */
+    /* width: 12.3%; */
+    clear: both;
+    float: left;
+}
+.exp h3{
+    position: relative;
+    bottom:15pt;
+}
+.exp1{
+    float: left;
+    width: 60%;
+}
+.exp1 p:nth-child(1){
+    color: rgb(0,128,128);
+
+}
+.edu1{
+    float: left;
+    width: 60%;
+}
+.edu1 p:nth-child(1){
+    color: rgb(0,128,128);
+
+}
+.edu{
+    position: relative;
+    border-right: 2px solid grey;
+    height: 30%;
+    top:15pt;
+    /* width: 99pt; */
+    clear: both;
+    float: left;
+}
+.edu h3{
+    position: relative;
+    bottom:15pt;
+}
+
+.hob{
+    position: relative;
+    border-right: 2px solid grey;
+    height: 13%;
+    top:15pt;
+    /* width: 99pt; */
+    clear: both;
+    float: left;
+}
+.hob h3{
+    position: relative;
+    bottom:15pt;
+}
+.year,.month,.day,.location{
+    float: right;
+    color: grey;
+
+}
+.slash{
+    color: rgb(0,128,128);
+    float: right;
 }
