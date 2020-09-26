@@ -1,25 +1,20 @@
 body{
-    /* width: 100%; */
-    /* margin: auto; */
+    width: 100%;
+    margin: auto;
 }
+
 .profile{
-    width: 1000px;
+    width: 600px;
     margin: auto;
     
 }
-.profile img{
-    position: relative;
-    /* margin-bottom: 100px; */
-    top: 120pt;
-    transform: rotate(-15deg);
-    margin-left: 80%;
-}
-.inImg{
-    width: 100%;
-}
 .profile p{
-    width: 75%;
+    width: 90%;
     color: grey;
+}
+.profile hr{
+    width: 90%;
+    margin-left:0px;
 }
 table{
     position: relative;
@@ -43,7 +38,7 @@ td span{
 .comp{
     position: relative;
     border-right: 2px solid grey;
-    height: 60pt;
+    height: 90px;
     top:15pt;
     /* width: 99pt; */
     float: left;
@@ -59,10 +54,8 @@ td span{
 .exp{
     position: relative;
     border-right: 2px solid grey;
-    height: 70pt;
+    height: 100px;
     top:15pt;
-    /* padding-right: 2%; */
-    /* width: 12.3%; */
     clear: both;
     float: left;
 }
@@ -72,7 +65,7 @@ td span{
 }
 .exp1{
     float: left;
-    /* width: 60%; */
+    width: 400px;
 }
 .exp1 p:nth-child(1){
     color: rgb(0,128,128);
@@ -80,7 +73,7 @@ td span{
 }
 .edu1{
     float: left;
-    /* width: 60%; */
+    width: 400px;
 }
 .edu1 p:nth-child(1){
     color: rgb(0,128,128);
@@ -89,7 +82,7 @@ td span{
 .edu{
     position: relative;
     border-right: 2px solid grey;
-    height: 120pt;
+    height: 200px;
     top:15pt;
     /* width: 99pt; */
     clear: both;
@@ -103,7 +96,7 @@ td span{
 .hob{
     position: relative;
     border-right: 2px solid grey;
-    height: 70pt;
+    height: 70px;
     top:15pt;
     /* width: 99pt; */
     clear: both;
@@ -112,9 +105,6 @@ td span{
 .hob h3{
     position: relative;
     bottom:15pt;
-}
-.hob1{
-    float: left;
 }
 .year,.month,.day,.location{
     float: right;
@@ -126,7 +116,9 @@ td span{
     float: right;
 }
 .contact{
-    margin-left: 23%;
+    margin: auto;
+    padding-right:5%;
+    width: 270px;
     clear: both;
 }
 .contact img{
@@ -134,8 +126,6 @@ td span{
     padding: 1%;
 }
 .element{
-    width: 1000px;
-    padding-left: 0%;
+    width: 600px;
     margin: auto;
-    padding-top: 8%;
 }
