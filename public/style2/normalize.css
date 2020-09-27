@@ -67,16 +67,18 @@
     float: left;
     border-right:2px solid grey;
     padding-right: 65px;
-    height: 150px;
+    height: 180px;
     position: absolute;
   }
   .experience h4 span{
     color: rgb(0,128,128);
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10px;
   }
   .experience-details{
+    margin-top: 20px;
+
     float: right;
   }
   .experience p{
@@ -88,7 +90,7 @@
   }
   
   #experiences{
-    margin-top:  50px;
+    margin-top:  80px;
   }
   h4 span:nth-child(1){
     margin-left: 150px;
@@ -102,7 +104,7 @@
     margin-top: 50px;
     clear: both;
     border-right:2px solid grey;
-    height: 180px;
+    height: 190px;
     padding-right: 47px;
     position: absolute;
     margin-top: 20px;
