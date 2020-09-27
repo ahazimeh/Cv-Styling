@@ -53,10 +53,10 @@ figure{
   /* padding: 5px; */
 }
 .skills-primary [data-skill="1"] span{
-  margin-left: 20%;
+  margin-left: 20px;
 }
 .skills-primary [data-skill="3"] span{
-  margin-left: 25%;
+  margin-left: 18px;
 }
 /* .skills-primary [data-skill="5"] span{
   margin-left: 10%;
@@ -67,10 +67,10 @@ figure{
 
 
 .skills-secondary [data-skill="5"] span{
-  margin-left: 20%;
+  margin-left: 20px;
 }
 .skills-secondary [data-skill="7"] span{
-  margin-left: 20%;
+  margin-left: 20px;
 }
 .skills-secondary [data-skill="9"] span{
   /* margin-left: 10%; */

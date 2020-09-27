@@ -449,30 +449,126 @@ template {
 [hidden] {
   display: none;
 }
-header div{
-  background-color: #999999;float: left;width: 100%;height:160px;
-  margin-bottom: 100px;
 
+@media screen and (min-width:800px){
+  header div{
+    background-color: #999999;float: left;width: 100%;height:160px;
+    margin-bottom: 100px;
+  
+  }
+  hgroup{
+    margin-top: 1%;
+    float: left;
+    color: red;
+    width:250px;
+    margin-left: 100px;
+  }
+  figure{
+    /* display: inline; */
+    float: left;
+    margin-top: 1.3% ;
+    /* height:140px; */
+    width:10%;
+  }
+  #about{
+    float: left;
+    width: 38%;
+    margin-left: 10%;
+  }
+  #competencies{
+    float: left;
+    width: 38%;
+    margin-left: 2%;
+    clear: right;
+  }
+  #experiences{
+    width: 38%;
+    margin-left: 10%;
+    float: left;
+    clear: both;
+  }
+  #education{
+    float: left;
+  
+    width: 38%;
+    margin-left: 2%;
+  }
+  #hobbies{
+    clear: both;
+    float: left;
+    width: 38%;
+    margin-left: 10%;
+  }
+  #contact{
+    clear: both;
+    float: left;
+  }
 }
-hgroup{
-  margin-top: 1%;
-  float: left;
-  color: red;
-  width:250px;
-  margin-left: 100px;
+
+@media screen and (max-width:800px){
+  header div{
+    background-color: #999999;float: left;width: 100%;height:300px;
+  }
+  hgroup{
+    color: red;
+    margin-left: 13%;
+  }
+  figure{
+    width:10%;
+    margin-left: 13%;
+  }
+  header div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  #about{
+    /* float: left; */
+    /* width: 38%; */
+    margin-left: 10%;
+  }
+  #about{
+    /* float: left; */
+    /* width: 38%; */
+    margin-left: 10%;
+  }
+  #competencies{
+    /* float: left; */
+    /* width: 38%; */
+    margin-left: 10%;
+    /* clear: right; */
+  }
+  #experiences{
+    /* width: 38%; */
+    margin-left: 10%;
+    /* float: left; */
+    /* clear: both; */
+  }
+  #education{
+    /* float: left; */
+  
+    /* width: 38%; */
+    margin-left: 10%;
+  }
+  #hobbies{
+    /* clear: both; */
+    /* float: left; */
+    /* width: 38%; */
+    margin-left: 10%;
+  }
+  #contact{
+    clear: both;
+    float: left;
+  }
 }
-figure{
-  /* display: inline; */
-  float: left;
-  margin-top: 1.3% ;
-  /* height:140px; */
-  width:10%;
-}
-#about{
-  float: left;
-  width: 38%;
-  margin-left: 10%;
-}
+
+
+
+
+
+
+
+
 #about h3{
   border-bottom:1px solid grey;
 }
@@ -488,34 +584,7 @@ figure{
 #hobbies h3{
   border-bottom:1px solid grey;
 }
-#competencies{
-  float: left;
-  width: 38%;
-  margin-left: 2%;
-  clear: right;
-}
-#experiences{
-  width: 38%;
-  margin-left: 10%;
-  float: left;
-  clear: both;
-}
-#education{
-  float: left;
 
-  width: 38%;
-  margin-left: 2%;
-}
-#hobbies{
-  clear: both;
-  float: left;
-  width: 38%;
-  margin-left: 10%;
-}
-#contact{
-  clear: both;
-  float: left;
-}
 
 .experience-type{
   color: red;
@@ -585,4 +654,33 @@ figure{
   background-color: rgb(219,219,219);
   height: 30px;
   margin-bottom: 1%;
+}
+
+
+
+@media screen and (max-width:800px){
+  body{
+    width: 400px !important;
+    margin: auto !important;
+  }
+  #about h3{
+    border-bottom:1px solid grey !important;
+    width: 350px !important;
+  }
+  #competencies h3{
+    border-bottom:1px solid grey !important;
+    width: 350px !important;
+  }
+  #experiences h3{
+    border-bottom:1px solid grey !important;
+    width: 350px !important;
+  }
+  #education h3{
+    border-bottom:1px solid grey !important;
+    width: 350px !important;
+  }
+  #hobbies h3{
+    border-bottom:1px solid grey !important;
+    width: 350px !important;
+  }
 }
