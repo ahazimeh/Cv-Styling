@@ -176,7 +176,7 @@
     background-color:#008080 !important;
     margin-top:10px !important;
     height:45px !important;
-    width:150px !important;
+    width:160px !important;
     color:white !important;
     font-size:21px !important;
     margin-top:5px !important;  
@@ -187,7 +187,7 @@
     background-color:#008080 !important;
     font-size:16px !important;
     height:40px !important;
-    width:150px !important;
+    width:160px !important;
     color:white !important;
 }
 .skills span{
@@ -376,6 +376,7 @@
     margin-top: 20px;
     /* margin-left: 10px; */
   }
+  
   .experience-details{
     float: right;
     margin-top: 20px;
@@ -482,9 +483,6 @@
     display: none;
   }
 }
-
-
-
-
-
-
+.experience-date-separator{
+  color: rgb(0,128,128);
+}
