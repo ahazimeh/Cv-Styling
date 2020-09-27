@@ -598,23 +598,50 @@ template {
 .experience-date-separator{
   color: rgb(255,0,0);
 }
-#contact{
-  position: absolute;
-  right: 0;
-  margin-top: -52px;
+@media screen and (min-width:800px){
+  #contact{
+    position: absolute;
+    right: 0;
+    margin-top: -52px;
+  }
+  .contact{
+    display: flex;
+  }
+  .contact dl{
+    flex:1;
+  }
+  .contact dt{
+    flex: 3;
+  }
+  #contact h3{
+    visibility: hidden;
+  }
+
 }
-.contact{
-  display: flex;
+@media screen and (max-width:800px){
+  .contact{
+    display: flex;
+  }
+  #contact h3{
+    /* visibility: hidden; */
+    border-bottom: 1px solid grey;
+    margin-left: 12%;
+    width: 350px;
+  
+  }
+  .contact dl{
+    flex:1;
+  }
+  .contact dt{
+    flex: 3;
+  }
+
 }
-.contact dl{
-  flex:1;
-}
-.contact dt{
-  flex: 3;
-}
-#contact h3{
-  visibility: hidden;
-}
+
+
+
+
+
 .skills-primary .skill{
   display: relative;  
   background-color: #CCCCCC;
