@@ -44,40 +44,17 @@
     /* border-right: 2px solid grey; */
   }
   
-  .skill span{
-    background-color: rgb(0,128,128);
-    /* padding: 5px; */
-    /* padding: ; */
-  }
-  .skills-primary [data-skill="1"] span{
-    margin-left: 20px;
-  }
-  .skills-primary [data-skill="3"] span{
-    margin-left: 18px;
-  }
-  /* .skills-primary [data-skill="5"] span{
-    margin-left: 10%;
-  } */
-  .skills-secondary{
-    margin-top: 10px;
-  }
+  
+
   
   
-  .skills-secondary [data-skill="5"] span{
-    margin-left: 20px;
-  }
-  .skills-secondary [data-skill="7"] span{
-    margin-left: 20px;
-  }
-  .skills-secondary [data-skill="9"] span{
-    /* margin-left: 10%; */
-  }
+  
   .skills-primary{
     margin-top: -90px;
     margin-left: 140px;
   }
   .skills-secondary{
-    margin-top: -60px;
+    margin-top: -30px;
     margin-left: 140px;
   }
   .day,.month,.year,.experience-location{
@@ -184,6 +161,77 @@
     /* visibility: hidden; */
     display: none;
   }
+
+
+
+
+
+
+
+
+
+  .skills-primary .skill{
+    margin-left:20px !important;
+    border:1px solid #008080 !important;
+    background-color:#008080 !important;
+    margin-top:10px !important;
+    height:45px !important;
+    width:150px !important;
+    color:white !important;
+    font-size:21px !important;
+    margin-top:5px !important;  
+}
+.skills-secondary .skill{
+    margin-left:20px !important;
+    border:1px solid #008080 !important;
+    background-color:#008080 !important;
+    font-size:16px !important;
+    height:40px !important;
+    width:150px !important;
+    color:white !important;
+}
+.skills span{
+  margin-left:2px !important;   
+}
+[data-skill="5"]:nth-child(1)::after{
+  content: "★★★" !important;
+  margin-left: 3vw !important;
+}
+[data-skill="9"]::after{
+  content: "★★★★★" !important;
+  margin-left:3vw !important;
+}
+[data-skill="7"]::after{
+  content: "★★★★" !important;
+  margin-left: 2vw !important;
+}
+[data-skill="3"]::after{
+  content: "★★" !important;
+  margin-left:6vw !important;
+}
+[data-skill="1"]::after{
+  content: "★" !important;
+  margin-left:3vw !important;
+}
+[data-skill="5"]:nth-child(2)::after{
+  content: "★★★" !important;
+  margin-left:6vw !important;
+}
+.skills-primary{
+  display:flex !important;
+  flex-direction: row !important;
+}
+.skills-secondary{
+  display:flex !important;
+  flex-direction: row !important;
+}
+
+
+
+
+
+
+
 }
 
 
@@ -239,41 +287,74 @@
     border-bottom: 2px solid grey;
   }
   
-  .skill span{
-    background-color: rgb(0,128,128);
-    /* padding: 5px; */
-  }
-  .skills-primary [data-skill="1"] span{
-    margin-left: 20px;
-  }
-  .skills-primary [data-skill="3"] span{
-    margin-left: 18px;
-  }
-  /* .skills-primary [data-skill="5"] span{
-    margin-left: 10%;
-  } */
-  .skills-secondary{
-    margin-top: 10px;
-  }
-  
-  
-  .skills-secondary [data-skill="5"] span{
-    margin-left: 20px;
-  }
-  .skills-secondary [data-skill="7"] span{
-    margin-left: 20px;
-  }
-  .skills-secondary [data-skill="9"] span{
-    /* margin-left: 10%; */
-  }
   .skills-primary{
-    margin-top: 10px;
-    margin-left: 0px;
+    margin-top: -10px;
+    margin-left: -30px;
   }
   .skills-secondary{
-    margin-top: 40px;
-    margin-left: 0px;
-  }
+    margin-top: 50px;
+    margin-left: -30px;
+  } 
+  .skills-primary .skill{
+    margin-left:20px;
+    border:1px solid #008080;
+    background-color:#008080;
+    margin-top:10px;
+    height:45px;
+    width:155px;
+    color:white;
+    font-size:24px;
+    margin-top:5px;  
+}
+.skills-secondary .skill{
+    margin-left:20px;
+    border:1px solid #008080;
+    background-color:#008080;
+    font-size:16px;
+    height:40px;
+    width:155px;
+    color:white;
+}
+.skills span{
+    margin-left:2px;   
+}
+[data-skill="5"]:nth-child(1)::after{
+    content: "★★★";
+    margin-left: 3vw;
+}
+[data-skill="9"]::after{
+    content: "★★★★★";
+    margin-left:3vw;
+}
+[data-skill="7"]::after{
+    content: "★★★★";
+    margin-left: 2vw;
+}
+[data-skill="3"]::after{
+    content: "★★";
+    margin-left:6vw;
+}
+[data-skill="1"]::after{
+    content: "★";
+    margin-left:3vw;
+}
+[data-skill="5"]:nth-child(2)::after{
+    content: "★★★";
+    margin-left:6vw;
+}
+
+.skills-primary{
+  display:flex;
+  flex-direction: row;
+}
+.skills-secondary{
+  display:flex;
+  flex-direction: row;
+}
+
+
+
+
   .day,.month,.year,.experience-location{
     color: grey;
   }
@@ -401,3 +482,9 @@
     display: none;
   }
 }
+
+
+
+
+
+

@@ -617,25 +617,26 @@ template {
     visibility: hidden;
   }
 
-  /* section#contact{
-    position: absolute;
-    flex-direction: row;
-    margin-left: 18vw;
-  }
-  dl{
-    display:flex;
+  /* dl{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   dt{
-    border:1px#ff0000 solid;
+    border:1px #ff0000 solid;
     width:28vw;
     display:flex;
     flex:1;
     background-color: #ff0000;
-    color:white;
-
-} */
+    color: white;
+  }
+  dd{
+    border:1px black solid;
+    background-color: black;
+    display: flex;
+    width: 28vw;
+    flex: 3;
+  } */
 }
 @media screen and (max-width:800px){
   .contact{
@@ -729,4 +730,12 @@ template {
     border-bottom:1px solid grey !important;
     width: 350px !important;
   }
+}
+
+h3:before{
+  content: '\25CF';
+  color: red;
+
+  font-size: 25px;
+
 }
