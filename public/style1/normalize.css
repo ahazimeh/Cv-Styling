@@ -617,6 +617,25 @@ template {
     visibility: hidden;
   }
 
+  /* section#contact{
+    position: absolute;
+    flex-direction: row;
+    margin-left: 18vw;
+  }
+  dl{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  dt{
+    border:1px#ff0000 solid;
+    width:28vw;
+    display:flex;
+    flex:1;
+    background-color: #ff0000;
+    color:white;
+
+} */
 }
 @media screen and (max-width:800px){
   .contact{
