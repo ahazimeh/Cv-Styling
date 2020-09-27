@@ -1,3 +1,4 @@
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -9,7 +10,7 @@
  *    IE on Windows Phone and in iOS.
  */
 
-html {
+ html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -58,7 +59,7 @@ h1 {
  */
 
 figcaption,
-/* figure, */
+figure,
 main {
   /* 1 */
   display: block;
@@ -68,12 +69,8 @@ main {
  * Add the correct margin in IE 8.
  */
 
-.figure {
-  /* display: inline; */
-  float: left;
-  margin-top: 1.3% ;
-  /* height:140px; */
-  width:10%;
+figure {
+  margin: 1em 40px;
 }
 
 /**
@@ -452,36 +449,44 @@ template {
 [hidden] {
   display: none;
 }
+header div{
+  background-color: #999999;float: left;width: 100%;height:160px;
+  margin-bottom: 100px;
 
-
-hgroup,.hgroup{
+}
+hgroup{
   margin-top: 1%;
   float: left;
   color: red;
-  width:20%;
-  margin-left: 13%;
+  width:250px;
+  margin-left: 100px;
 }
-.info{
-
+figure{
+  /* display: inline; */
   float: left;
-  line-height: 6px;
-  margin-top: 1%;
-  background-color: red;
-  width: 10%;
-  color: white;
-}
-.details{
-  margin-top: 1%;
-  float: left;
-  line-height: 6px;
-  background-color: black;
-  color: red;
-  width: 47%;
+  margin-top: 1.3% ;
+  /* height:140px; */
+  width:10%;
 }
 #about{
   float: left;
   width: 38%;
   margin-left: 10%;
+}
+#about h3{
+  border-bottom:1px solid grey;
+}
+#competencies h3{
+  border-bottom:1px solid grey;
+}
+#experiences h3{
+  border-bottom:1px solid grey;
+}
+#education h3{
+  border-bottom:1px solid grey;
+}
+#hobbies h3{
+  border-bottom:1px solid grey;
 }
 #competencies{
   float: left;
@@ -511,51 +516,6 @@ hgroup,.hgroup{
   clear: both;
   float: left;
 }
-.skills-primary .skill{
-  display: relative;  
-  background-color: #CCCCCC;
-  height: 30px;
-  margin-bottom: 1%;
-}
-.skills-secondary .skill{
-  display: relative;  
-  background-color: rgb(219,219,219);
-  height: 30px;
-  margin-bottom: 1%;
-}
-.skills-primary .skill .percent{
-  position: relative;
-  background-color: red;
-  height: 80%;
-  top:10%;
-}
-.skills-secondary .skill .percent{
-  position: relative;
-  background-color: rgb(255,75,75);
-  height: 80%;
-  top:10%;
-}
-
-.skills-primary .skill:nth-child(1) .percent{
-  width: 40%;
-}
-.skills-primary .skill:nth-child(2) .percent{
-  width: 30%;
-}
-.skills-primary .skill:nth-child(3) .percent{
-  width: 50%;
-}
-.skills-secondary .skill:nth-child(1) .percent{
-  width: 40%;
-}
-.skills-secondary .skill:nth-child(2) .percent{
-  width: 30%;
-}
-.skills-secondary .skill:nth-child(3) .percent{
-  width: 50%;
-}
-
-
 
 .experience-type{
   color: red;
@@ -569,27 +529,60 @@ hgroup,.hgroup{
 .experience-date-separator{
   color: rgb(255,0,0);
 }
-
-.dot {
-  height: 20px;
-  width: 20px;
-  background-color: red;
-  border-radius: 50%;
-  display: inline-block;
+#contact{
+  position: absolute;
+  right: 0;
+  margin-top: -52px;
 }
-.about{
-  clear: both;
-  margin-left: 10%;
-  float: left;
+.contact{
+  display: flex;
+}
+.contact dl{
+  flex:1;
+}
+.contact dt{
+  flex: 3;
+}
+#contact h3{
+  visibility: hidden;
+}
+.skills-primary .skill{
+  display: relative;  
+  background-color: #CCCCCC;
+  height: 30px;
+  margin-bottom: 1%;
+}
+.skills-primary .skill:nth-child(1){
+  background-color: red;
   width: 30%;
 }
-.competencies{
-  margin-left: 10%;
-  float: left;
-  /* width: 20%; */
+.skills-primary .skill:nth-child(2){
+  background-color: red;
+  width: 50%;
 }
-hr{
-  clear: both;
-  width: 77.8%;
-  margin-left: 10%;
+.skills-primary .skill:nth-child(3){
+  background-color: red;
+  width: 70%;
+}
+
+
+.skills-secondary .skill:nth-child(1){
+  background-color: rgb(255,75,75);
+  width: 40%;
+}
+.skills-secondary .skill:nth-child(2){
+  background-color: rgb(255,75,75);
+  width: 35%;
+}
+.skills-secondary .skill:nth-child(3){
+  background-color: rgb(255,75,75);
+  width: 60%;
+}
+
+
+.skills-secondary .skill{
+  display: relative;  
+  background-color: rgb(219,219,219);
+  height: 30px;
+  margin-bottom: 1%;
 }

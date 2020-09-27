@@ -1,131 +1,198 @@
 body{
-    width: 100%;
-    margin: auto;
+  width: 450px;
+  margin: auto;
+}
+#about{
+  position: absolute;
+  top:0;
+  margin-top: 50pt;
+  width: 450px;
+}
+#about h3{
+  visibility: hidden;
+}
+#about p{
+  color: grey;
+}
+hgroup h2{
+  visibility: hidden;
+}
+hgroup h1{
+  border-bottom: 2px solid grey;
+}
+figure{
+  visibility: hidden;
+  /* position: absolute; */
+  float: right;
+  transform: rotate(-15deg);
+}
+#competencies{
+  margin-top:  250px;
 }
 
-.profile{
-    width: 600px;
-    margin: auto;
-    
+#competencies .skills{
+  /* float: left; */
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+
+  height:50pt;
+  padding-left: 10pt;
+  /* border-bottom: 2px solid grey; */
 }
-.profile p{
-    width: 90%;
-    color: grey;
+#competencies h3{
+  clear: both;
+  /* height:50pt; */
+  width: 150px;
+  border-bottom: 2px solid grey;
 }
-.profile hr{
-    width: 90%;
-    margin-left:0px;
+
+.skill span{
+  background-color: rgb(0,128,128);
+  /* padding: 5px; */
 }
-table{
-    position: relative;
-    top: 12pt;
-    float: left;
-    /* border-left: solid red; */
-    /* margin-left: 2px; */
+.skills-primary [data-skill="1"] span{
+  margin-left: 20%;
 }
-td{
-    background-color: rgb(0,128,128);
-    color: white;
-    line-height: 1.5em;
+.skills-primary [data-skill="3"] span{
+  margin-left: 25%;
 }
-table tr:nth-child(2) td{
-    font-size: x-small;
+/* .skills-primary [data-skill="5"] span{
+  margin-left: 10%;
+} */
+.skills-secondary{
+  margin-top: 10px;
 }
-td span{
-    color: white;
-    /* background-color: white; */
+
+
+.skills-secondary [data-skill="5"] span{
+  margin-left: 20%;
 }
-.comp{
-    position: relative;
-    border-right: 2px solid grey;
-    height: 90px;
-    top:15pt;
-    /* width: 99pt; */
-    float: left;
-    clear: both;
+.skills-secondary [data-skill="7"] span{
+  margin-left: 20%;
 }
-.comp h3{
-    position: relative;
-    bottom:15pt;
+.skills-secondary [data-skill="9"] span{
+  /* margin-left: 10%; */
+}
+.skills-primary{
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.skills-secondary{
+  margin-top: 40px;
+  margin-left: 0px;
+}
+.day,.month,.year,.experience-location{
+  color: grey;
+}
+#experiences h3{
+  clear: both;
+  /* height:70pt; */
+  margin-top: 130px;
+  /* padding-top: -30px; */
+  /* float: left; */
+  border-bottom:2px solid grey;
+  /* padding-right: 28px; */
+  /* height: 250px; */
+  /* position: absolute; */
+  width: 150px;
+}
+.experience h4 span{
+  color: rgb(0,128,128);
+  float: left;
+  margin-top: 20px;
+  /* margin-left: 10px; */
+}
+.experience-details{
+  float: right;
+  margin-top: 20px;
+}
+.experience p{
+  clear: both;
+  /* width: 80%; */
+  /* margin-left: 150px; */
+  /* height: 200px; */
+
+}
+
+#experiences{
+  margin-top:  50px;
+}
+h4 span:nth-child(1){
+  /* margin-left: 150px; */
 }
 
 
 
-.exp{
-    position: relative;
-    border-right: 2px solid grey;
-    height: 100px;
-    top:15pt;
-    clear: both;
-    float: left;
-}
-.exp h3{
-    position: relative;
-    bottom:15pt;
-}
-.exp1{
-    float: left;
-    width: 400px;
-}
-.exp1 p:nth-child(1){
-    color: rgb(0,128,128);
 
-}
-.edu1{
-    float: left;
-    width: 400px;
-}
-.edu1 p:nth-child(1){
-    color: rgb(0,128,128);
 
+#education h3{
+  margin-top: 50px;
+  clear: both;
+  border-bottom:2px solid grey;
+  width: 150px;
+  /* height: 250px; */
+  /* padding-right: 47px; */
+  /* position: absolute; */
+  margin-top: 20px;
 }
-.edu{
-    position: relative;
-    border-right: 2px solid grey;
-    height: 200px;
-    top:15pt;
-    /* width: 99pt; */
-    clear: both;
-    float: left;
-}
-.edu h3{
-    position: relative;
-    bottom:15pt;
+#education .experience{
+  /* margin-top: 10px; */
 }
 
-.hob{
-    position: relative;
-    border-right: 2px solid grey;
-    height: 70px;
-    top:15pt;
-    /* width: 99pt; */
-    clear: both;
-    float: left;
-}
-.hob h3{
-    position: relative;
-    bottom:15pt;
-}
-.year,.month,.day,.location{
-    float: right;
-    color: grey;
 
+#hobbies h3{
+  margin-top: 50px;
+  clear: both;
+  width: 150px;
+  border-bottom:2px solid grey;
+  /* height: 150px; */
+  /* padding-right: 64px; */
+  /* position: absolute; */
+  margin-top: 20px;
 }
-.slash{
-    color: rgb(0,128,128);
-    float: right;
+#hobbies ul{
+  /* margin-left:140px; */
+  /* padding-top: 40px; */
+  margin-top: 30px;
 }
-.contact{
-    margin: auto;
-    padding-right:5%;
-    width: 270px;
-    clear: both;
+
+
+#contact h3{
+  margin-top: 100px;
+  display: none;
 }
-.contact img{
-    margin-top: 3%;
-    padding: 1%;
+.contacts{
+  display:flex;
+  width: 200px;
+  margin-top: 0px;
+  /* margin-left: -100px; */
+  justify-content: flex-end;
+  margin-left: 80px;
+  
 }
-.element{
-    width: 600px;
-    margin: auto;
+.contact-email a{
+  content: url(../images/email.png);
+  width: 50px;
+  clear: both;
+}
+.contact-phone a{
+  content: url(../images/phone.png);
+  width: 50px;
+}
+.contact-github a{
+  content: url(../images/github.png);
+  width: 50px;
+}
+.contact-facebook a{
+  content: url(../images/facebook.png);
+  width: 50px;
+  position: absolute;
+  left: 10px;
+  margin-top: 100px;
+}
+.contact-type,.contact-skype{
+  /* visibility: hidden; */
+  display: none;
 }
